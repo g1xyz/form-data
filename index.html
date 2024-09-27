@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms to google sheet</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <h1>Application Form</h1>
+            <form id="form">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="Name" id="name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <textarea type="text" name="Email" id="Email"></textarea>
+                </div>
+                <div>
+                    <h3>Job Roles</h3>
+                    <input type="radio" name="Roles" value="Retail Sales Officer">Retail Sales Officer<br>
+                    <input type="radio" name="Roles" value="Office Executive">Office Executive<br>
+                    <input type="radio" name="Roles" value="Junior Developer">Junior Developer<br>
+                    <input type="radio" name="Roles" value="Cloud Developer">Cloud Developer<br>
+                    <input type="radio" name="Roles" value="Solar PV Installer">Solar PV Installer<br>
+                    <input type="radio" name="Roles" value="Customer Care Executive">Customer Care Executive<br>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
